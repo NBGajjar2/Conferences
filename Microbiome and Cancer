@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Zurich Travel Brief – November 2026 (Private)</title>
+<style>
+:root{--navy:#0f2540;--navy2:#17365c;--teal:#2f7f86;--teal-d:#235f65;--teal-l:#e3f0f1;--ink:#1c2733;--gray:#5b6673;--line:#d6dce3;--bg:#f4f6f8;--card:#fff;--warn:#b42318;--warn-bg:#fdecea;--amber:#8a5a00;--amber-bg:#fff4d6;--star:#c98a00}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--teal-d);text-underline-offset:2px}
+a:hover{color:var(--navy)}
+:focus-visible{outline:3px solid #f2b705;outline-offset:2px}
+.skip{position:absolute;left:-999px;top:0;background:#fff;color:#000;padding:8px 12px;z-index:100}
+.skip:focus{left:8px;top:8px}
+header.top{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:28px 20px 24px}
+.wrap{max-width:1080px;margin:0 auto}
+header .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:.78rem;color:#9fd3d8;margin:0 0 6px}
+header h1{margin:0 0 10px;font-size:clamp(1.5rem,3.6vw,2.2rem);line-height:1.2}
+header .meta{display:flex;flex-wrap:wrap;gap:6px 22px;margin:0;padding:0;list-style:none;color:#dbe6f2}
+header .meta strong{color:#fff}
+.conf{display:inline-block;margin-top:14px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);padding:4px 10px;border-radius:4px;font-size:.82rem}
+nav.main{position:sticky;top:0;z-index:20;background:var(--navy);border-top:1px solid rgba(255,255,255,.12);box-shadow:0 2px 6px rgba(0,0,0,.2)}
+nav.main ul{display:flex;gap:2px;margin:0 auto;padding:0 12px;list-style:none;max-width:1080px;overflow-x:auto}
+nav.main a{display:block;padding:12px 12px;color:#e8eef5;text-decoration:none;font-size:.92rem;white-space:nowrap;border-bottom:3px solid transparent}
+nav.main a:hover,nav.main a:focus-visible{background:var(--navy2);border-bottom-color:var(--teal);color:#fff}
+main{padding:10px 16px 50px}
+section{max-width:1080px;margin:28px auto 0}
+h2{font-size:1.5rem;color:var(--navy);margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid var(--teal)}
+h3{font-size:1.1rem;color:var(--navy);margin:18px 0 6px}
+h4{font-size:.95rem;color:var(--gray);text-transform:uppercase;letter-spacing:.05em;margin:14px 0 4px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px 20px;margin:0 0 16px;box-shadow:0 1px 2px rgba(15,37,64,.05)}
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 16px;border-radius:6px;background:var(--teal);color:#fff!important;text-decoration:none;font-weight:600;border:2px solid var(--teal);cursor:pointer;font-size:.95rem;font-family:inherit}
+.btn:hover{background:var(--teal-d);border-color:var(--teal-d)}
+.btn.alt{background:#fff;color:var(--navy)!important;border-color:var(--navy)}
+.btn.alt:hover{background:var(--teal-l)}
+.btn.primary{background:var(--navy);border-color:var(--navy);font-size:1.05rem;padding:14px 20px}
+.btn.primary:hover{background:var(--navy2)}
+.qa{background:var(--navy);color:#fff;border-radius:10px;padding:20px}
+.qa h2{color:#fff;border-color:var(--teal)}
+.qa .btn.alt{background:rgba(255,255,255,.08);color:#fff!important;border-color:rgba(255,255,255,.5)}
+.qa .btn.alt:hover{background:rgba(255,255,255,.2)}
+.qa .row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+.qa small{color:#c4d2e0;display:block}
+.qa .btn.primary{background:var(--teal);border-color:#8fd0d6}
+.note{border-left:4px solid var(--teal);background:var(--teal-l);padding:10px 14px;border-radius:0 6px 6px 0;margin:12px 0;font-size:.93rem}
+.warn{border-left:4px solid var(--warn);background:var(--warn-bg);color:#5c1510;padding:12px 14px;border-radius:0 6px 6px 0;margin:12px 0}
+.amber{border-left:4px solid #d19a00;background:var(--amber-bg);color:#4d3300;padding:10px 14px;border-radius:0 6px 6px 0;margin:12px 0;font-size:.93rem}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:99px;background:var(--teal-l);color:var(--teal-d);vertical-align:middle}
+.tag.red{background:var(--warn);color:#fff}
+.tag.gold{background:var(--star);color:#fff}
+.tag.gray{background:#e8ecf0;color:var(--gray)}
+/* flights */
+.flight .route{display:flex;align-items:center;gap:12px;margin:12px 0}
+.flight .pt{flex:1}
+.flight .pt .code{font-size:2rem;font-weight:700;color:var(--navy);line-height:1}
+.flight .pt .t{font-size:1.15rem;font-weight:600}
+.flight .pt small{color:var(--gray);display:block}
+.flight .mid{text-align:center;color:var(--gray);font-size:.85rem;min-width:110px}
+.flight .mid .line{height:2px;background:var(--teal);position:relative;margin:6px 0}
+.flight .mid .line:after{content:"✈";position:absolute;right:-4px;top:-12px;color:var(--teal);font-size:1rem;background:#fff;padding-left:3px}
+dl.kv{display:grid;grid-template-columns:max-content 1fr;gap:5px 16px;margin:0}
+dl.kv dt{color:var(--gray);font-size:.9rem}
+dl.kv dd{margin:0;font-weight:500}
+@media(max-width:520px){dl.kv{grid-template-columns:1fr}dl.kv dt{margin-top:6px}.flight .route{flex-direction:column;align-items:stretch}.flight .mid{min-width:0}}
+.sens{background:#fff;border:2px dashed var(--warn);border-radius:8px;padding:14px 18px}
+.sens summary{cursor:pointer;font-weight:700;color:var(--warn)}
+/* agenda */
+details.day{background:#fff;border:1px solid var(--line);border-radius:8px;margin:0 0 14px;overflow:hidden}
+details.day>summary{cursor:pointer;list-style:none;padding:14px 18px;background:var(--navy);color:#fff;font-weight:700;font-size:1.1rem;display:flex;justify-content:space-between;gap:10px}
+details.day>summary::-webkit-details-marker{display:none}
+details.day>summary:after{content:"＋";font-weight:400}
+details.day[open]>summary:after{content:"－"}
+.daybody{padding:6px 18px 18px}
+.ev{display:grid;grid-template-columns:110px 1fr;gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.ev:last-child{border-bottom:0}
+.ev .time{font-weight:700;color:var(--teal-d)}
+.ev .ttl{font-weight:700;color:var(--navy);font-size:1.03rem}
+.ev .loc{color:var(--gray);font-size:.9rem}
+.ev.brk{background:#f7f9fa;margin:0 -18px;padding-left:18px;padding-right:18px}
+.ev.brk .ttl{font-weight:600;color:var(--gray)}
+.ev.key{background:#fffaf0;margin:0 -18px;padding:14px 18px;border:2px solid var(--star);border-radius:8px}
+@media(max-width:600px){.ev{grid-template-columns:1fr}}
+.panel .lbl{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--gray);margin:12px 0 2px}
+.panel ul{margin:2px 0 4px;padding-left:20px}
+.panel li{margin:2px 0}
+.panel .dim{color:var(--gray);font-size:.88rem}
+.panel .spk b{color:var(--navy)}
+.pill{display:inline-block;background:var(--star);color:#fff;font-weight:700;font-size:.78rem;padding:3px 10px;border-radius:99px;margin-bottom:6px}
+/* checklist */
+.chk{list-style:none;padding:0;margin:0}
+.chk li{padding:8px 0;border-bottom:1px solid var(--line)}
+.chk label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
+.chk input{width:20px;height:20px;margin-top:2px;accent-color:var(--teal)}
+.chk input:checked+span{text-decoration:line-through;color:var(--gray)}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:var(--teal-l);color:var(--navy)}
+.tablewrap{overflow-x:auto}
+.hotelbanner{background:var(--warn);color:#fff;border-radius:8px;padding:16px 20px;font-size:1.15rem;font-weight:700;display:flex;gap:12px;align-items:center;margin-bottom:16px}
+.hotelbanner span.ic{font-size:1.8rem}
+.contacts .card h3{margin-top:0}
+footer{background:var(--navy);color:#b9c7d6;padding:22px 16px;font-size:.88rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 30px;align-items:center;justify-content:space-between}
+#lastUpdated{background:transparent;color:#fff;border:0;border-bottom:1px dashed #9fb3c8;font:inherit;width:15ch;padding:2px}
+.printonly{display:none}
+/* print */
+@media print{
+ body{background:#fff;font-size:10.5pt;color:#000}
+ nav.main,.skip,.noprint,.btn.noprint,footer .btn,.qa .row .btn.noprint{display:none!important}
+ header.top{background:#fff!important;color:#000;padding:0 0 8px;border-bottom:2px solid #000}
+ header .eyebrow,header .meta,header .meta strong{color:#000}
+ header .conf{border:1px solid #000;color:#000;background:#fff}
+ .qa{background:#fff;color:#000;border:1px solid #000}
+ .qa h2{color:#000}.qa small{color:#333}
+ .qa .btn{background:#fff!important;color:#000!important;border:1px solid #000;padding:2px 6px}
+ .card,details.day{box-shadow:none;break-inside:avoid-page;border:1px solid #888}
+ details.day{break-inside:auto}
+ details.day>summary{background:#eee!important;color:#000}
+ details.day>summary:after{content:""}
+ .ev{break-inside:avoid}
+ .hotelbanner{background:#fff!important;color:#000;border:3px solid #000}
+ a{color:#000;text-decoration:none}
+ a[href^="http"]:after,a[href^="mailto"]:after,a[href^="tel"]:after{content:" <" attr(href) ">";font-size:8pt;word-break:break-all;color:#333}
+ .btn:after{font-size:8pt}
+ main{padding:0}section{margin-top:14px}
+ h2{break-after:avoid}
+ .printonly{display:block}
+ .sens{border-color:#000}
+ #lastUpdated{border:0;color:#000}
+ footer{background:#fff;color:#000;border-top:1px solid #000}
+}
+.exp td input,.exp td select{width:100%;font:inherit;padding:5px;border:1px solid var(--line);border-radius:4px;background:#fff;min-width:70px}
+.exp td.x{width:1%}
+@media print{.exp td input,.exp td select{border:0;padding:0;appearance:none}.addrow{display:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+ <div class="wrap">
+  <p class="eyebrow">Private travel brief · Zurich, Switzerland</p>
+  <h1>Microbiome and Cancer Working Group Meeting</h1>
+  <ul class="meta">
+   <li><strong>Dates:</strong> November 18–20, 2026</li>
+   <li><strong>Location:</strong> Swiss Re Centre for Global Dialogue, Rüschlikon, Switzerland</li>
+   <li><strong>Attendee:</strong> Dr. Marco Ruella</li>
+   <li><strong>Travel:</strong> Nov 17 – Nov 21, 2026</li>
+  </ul>
+  <span class="conf">🔒 CONFIDENTIAL — contains reservation details. Local use only; do not post, upload or forward.</span>
+ </div>
+</header>
+
+<nav class="main" aria-label="Main navigation">
+ <ul>
+  <li><a href="#overview">Overview</a></li>
+  <li><a href="#flights">Flights</a></li>
+  <li><a href="#checkin">Check-in</a></li>
+  <li><a href="#agenda">Agenda</a></li>
+  <li><a href="#venue">Venue</a></li>
+  <li><a href="#hotel">Hotel &amp; Transport</a></li>
+  <li><a href="#policy">Travel Policy</a></li>
+  <li><a href="#expenses">Expenses</a></li>
+  <li><a href="#contacts">Contacts</a></li>
+ </ul>
+</nav>
+
+<main id="main">
+
+<section id="quick" aria-labelledby="qa-h" style="margin-top:20px">
+ <div class="qa">
+  <h2 id="qa-h">Quick Actions</h2>
+  <div class="row">
+   <a class="btn primary" href="https://www.aa.com/reservation/flightCheckInViewReservationsAccess.do?initNetSAAver=TRUE" target="_blank" rel="noopener noreferrer">✅ American Airlines Online Check-in</a>
+   <a class="btn alt" href="https://www.aa.com/manage-reservation/viewres/ui/app/viewres/DGLMZU" target="_blank" rel="noopener noreferrer">Manage American Airlines Reservation</a>
+   <a class="btn alt" href="https://www.aa.com/flightstatus/" target="_blank" rel="noopener noreferrer">AA Flight Status</a>
+  </div>
+  <div class="row">
+   <a class="btn" href="https://seerave-foundation.github.io/retreat-2026-agenda/?p=0df52" target="_blank" rel="noopener noreferrer">📅 Open Seerave Personalized Agenda</a>
+   <a class="btn alt" href="#agenda">Full Agenda (below)</a>
+   <a class="btn alt" href="https://www.google.com/maps/search/?api=1&amp;query=Swiss+Re+Centre+for+Global+Dialogue%2C+Gheistrasse+37%2C+8803+R%C3%BCschlikon%2C+Switzerland" target="_blank" rel="noopener noreferrer">📍 Venue on Google Maps</a>
+   <button type="button" class="btn alt noprint" onclick="window.print()">🖨 Print Travel Brief</button>
+  </div>
+  <small>AA states online check-in generally opens 24 hours before departure and closes 90 minutes before international flights — confirm the current rules for your flight. <a style="color:#9fd3d8" href="https://www.aa.com/web/i18n/travel-info/check-in-and-arrival.html?from=PROSevergreen" target="_blank" rel="noopener noreferrer">AA check-in guidance</a>.</small>
+  <small style="margin-top:6px">Flight times, gates, terminals and status can change. This page is a static travel brief, not a live flight-status system.</small>
+ </div>
+ <div class="note" role="status" style="margin-top:16px"><b>Lodging:</b> staying at the Swiss Re Centre for Global Dialogue (per Carolyn Edelstein’s email). <a href="#hotel">Details</a></div>
+</section>
+
+<section id="overview" aria-labelledby="ov-h">
+ <h2 id="ov-h">Overview</h2>
+ <div class="grid g2">
+  <div class="card">
+   <h3 style="margin-top:0">Meeting</h3>
+   <dl class="kv">
+    <dt>Meeting</dt><dd>Microbiome and Cancer Working Group Meeting (Meeting 2)</dd>
+    <dt>Dates</dt><dd>Wednesday–Friday, November 18–20, 2026</dd>
+    <dt>Venue</dt><dd>Swiss Re Centre for Global Dialogue<br>Gheistrasse 37, 8803 Rüschlikon, Switzerland</dd>
+    <dt>Attendee</dt><dd>Dr. Marco Ruella</dd>
+    <dt>Presentation</dt><dd>“Importance of ATB stewardship in CAR-T cell therapy: from first discovery to the clinic” — Thursday, Nov 19, 10:30 AM (Panel 2)</dd>
+    <dt>Agenda version</dt><dd>Draft v. 21 Oct 2026</dd>
+   </dl>
+   <div class="note" style="margin-bottom:0">Per the organizer’s agenda, panelists give framing talks of 7 minutes (max 10); speakers should plan <b>3 slides maximum</b>. Most of each panel is moderated discussion.</div>
+  </div>
+  <div class="card">
+   <h3 style="margin-top:0">Meeting purpose</h3>
+   <p>The working group focuses on translating microbiome research into clinically actionable cancer-care recommendations — identifying consensus and evidence gaps, defining research priorities, developing standards for clinical and translational evidence, and informing future practice.</p>
+   <p>Meeting 1 focused on establishing what is known. Meeting 2 focuses on establishing what is needed to bring the microbiome to clinical care: consensus statements on what is clinically actionable today, a research agenda, and evidence standards for the manuscript to be submitted to <i>Nature Medicine</i> on March 15, 2027. All members will have the opportunity to review the manuscript and sign off on authorship.</p>
+  </div>
+ </div>
+
+ <div class="card" id="reminders">
+  <h3 style="margin-top:0">Organizer reminders &amp; deadlines</h3>
+  <ul>
+   <li><b>November 11, 2026</b> — Authors send manuscript revisions to <a href="mailto:carolyn.edelstein@seerave.org">Carolyn Edelstein</a>.</li>
+   <li><b>November 17, 2026</b> — Speakers and moderators upload slides (<a href="https://www.dropbox.com/request/gf08twj4ucrmhjetdz9x" target="_blank" rel="noopener noreferrer">slide-upload link from the agenda document</a>). This is also the day of the outbound flight.</li>
+   <li><b>November 18–20, 2026</b> — Meeting.</li>
+   <li><b>March 15, 2027</b> — Planned <i>Nature Medicine</i> manuscript submission.</li>
+  </ul>
+  <p style="margin:6px 0">Consensus-statement template (authors): <a href="https://www.dropbox.com/scl/fi/jqlt9oohmoxx3v4ior1ib/Microbiome-and-Cancer-Working-Group_Consensus-Statement-Template.docx?rlkey=xb9xm50lhe7ez2tb0k2yf3g1p&amp;st=vubtvtvr&amp;dl=0" target="_blank" rel="noopener noreferrer">open template</a>.</p>
+  <div class="amber">These dates come from the meeting materials and have not been independently reconfirmed. Carolyn Edelstein’s email says your travel itinerary and personal agenda are available through a personalized link.</div>
+ </div>
+
+ <div class="card">
+  <h3 style="margin-top:0">Organization links</h3>
+  <p style="margin:0"><a href="https://microbiomecancer.org/" target="_blank" rel="noopener noreferrer">Microbiome &amp; Cancer Working Group</a> · <a href="https://seerave.org/" target="_blank" rel="noopener noreferrer">Seerave Foundation</a></p>
+ </div>
+</section>
+
+<section id="flights" aria-labelledby="fl-h">
+ <h2 id="fl-h">Flights</h2>
+ <div class="amber"><b>Source &amp; caveat:</b> Details are from the supplied e-ticket receipt (issued Aug 24, 2026) and an American Airlines reservation print (Sep 16, 2026). They are <b>not</b> independently live-verified. All times are local airport times. Confirm flight status, terminals, baggage allowances and seat assignments with American Airlines before departure. Nonstop on both legs as supplied; no connections shown.</div>
+ <div class="grid g2">
+  <article class="card flight" aria-labelledby="out-h">
+   <span class="tag">Outbound</span> <span class="tag gray">Overnight</span>
+   <h3 id="out-h">Philadelphia → Zurich · AA 92</h3>
+   <p style="margin:0"><b>Tuesday, Nov 17, 2026 → Wednesday, Nov 18, 2026</b> (arrives next morning)</p>
+   <div class="route">
+    <div class="pt"><div class="code">PHL</div><div class="t">6:35 PM</div><small>Tue, Nov 17</small><small>Philadelphia Intl · Terminal A</small></div>
+    <div class="mid">7h 40m<div class="line"></div>Nonstop</div>
+    <div class="pt" style="text-align:right"><div class="code">ZRH</div><div class="t">8:15 AM</div><small>Wed, Nov 18 (+1 day)</small><small>Zurich Airport</small></div>
+   </div>
+   <dl class="kv">
+    <dt>Airline</dt><dd>American Airlines</dd>
+    <dt>Cabin</dt><dd>Business Class</dd>
+    <dt>Seat</dt><dd>1A</dd>
+    <dt>Duration</dt><dd>7 hours 40 minutes</dd>
+    <dt>Meals</dt><dd>Dinner and breakfast</dd>
+    <dt>Terminal</dt><dd>PHL Terminal A (per e-ticket); ZRH terminal not supplied — verify</dd>
+    <dt>Carry-on</dt><dd>2 items: up to 45 linear in/115 cm and up to 40 linear in/101 cm</dd>
+    <dt>Checked bags</dt><dd>2 pieces, each up to 70 lb/32 kg and 62 linear in/158 cm (PHL–ZRH)</dd>
+   </dl>
+  </article>
+  <article class="card flight" aria-labelledby="ret-h">
+   <span class="tag">Return</span>
+   <h3 id="ret-h">Zurich → Philadelphia · AA 93</h3>
+   <p style="margin:0"><b>Saturday, Nov 21, 2026</b> (same-day arrival)</p>
+   <div class="route">
+    <div class="pt"><div class="code">ZRH</div><div class="t">10:15 AM</div><small>Sat, Nov 21</small><small>Zurich Airport · terminal not supplied</small></div>
+    <div class="mid">8h 55m<div class="line"></div>Nonstop</div>
+    <div class="pt" style="text-align:right"><div class="code">PHL</div><div class="t">1:10 PM</div><small>Sat, Nov 21</small><small>Philadelphia Intl · Terminal A</small></div>
+   </div>
+   <dl class="kv">
+    <dt>Airline</dt><dd>American Airlines</dd>
+    <dt>Cabin</dt><dd>Premium Economy</dd>
+    <dt>Seat</dt><dd>6L</dd>
+    <dt>Duration</dt><dd>8 hours 55 minutes</dd>
+    <dt>Meals</dt><dd>Lunch and snack</dd>
+    <dt>Terminal</dt><dd>PHL arrival Terminal A (per e-ticket); ZRH departure terminal not supplied — verify</dd>
+    <dt>Carry-on</dt><dd>2 items: up to 45 linear in/115 cm and up to 40 linear in/101 cm</dd>
+    <dt>Checked bags</dt><dd>2 pieces, each up to 50 lb/23 kg and 62 linear in/158 cm (ZRH–PHL)</dd>
+   </dl>
+   <p class="dim" style="font-size:.88rem;color:var(--gray);margin-bottom:0">Ticket: not valid before November 21, 2026.</p>
+  </article>
+ </div>
+ <div class="note">The return flight departs Saturday morning, the day after the meeting ends. The Friday Nov 20 group airport shuttles (from 1:30 PM) are for people departing Friday; since your flight is Saturday, <b>verify with Seerave what transfer applies to you</b> and check your personalized agenda. No Saturday transfer time was supplied.</div>
+
+ <details class="sens card">
+  <summary>🔒 Reservation details (sensitive) — click to show</summary>
+  <dl class="kv" style="margin-top:12px">
+   <dt>Passenger</dt><dd>RUELLA, MARCO (MR)</dd>
+   <dt>AA confirmation code</dt><dd>DGLMZU</dd>
+   <dt>Additional reservation no.</dt><dd>HVS0SS (shown on the e-ticket receipt)</dd>
+   <dt>E-ticket number</dt><dd>0016398233594 (a ticket number is not interchangeable with a confirmation code)</dd>
+   <dt>Ticket issue date</dt><dd>August 24, 2026 (e-ticket receipt); AA page shows “Issued August 23, 2026”</dd>
+   <dt>Status</dt><dd>Confirmed/Ticketed on supplied documents; fare NONREF / restrictions apply</dd>
+   <dt>Issued by</dt><dd>ACAPA AG travel agency (phone on receipt: <a href="tel:+41564433221">056 443 32 21</a>)</dd>
+  </dl>
+  <div class="note">Private local page — never publish this file or its reservation details.</div>
+ </details>
+ <div class="amber">Supplied planning offer (flight-offer document) listed slightly different schedule times (arrivals 08:20 and 13:25) and “2×23 kg” as the baggage note. The issued ticket and AA reservation (8:15 AM / 1:10 PM, 70 lb Business outbound) are used here; confirm with AA.</div>
+</section>
+
+<section id="checkin" aria-labelledby="ci-h">
+ <h2 id="ci-h">Check-in</h2>
+ <div class="grid g2">
+  <div class="card">
+   <h3 style="margin-top:0">American Airlines online check-in</h3>
+   <p><a class="btn primary" href="https://www.aa.com/reservation/flightCheckInViewReservationsAccess.do?initNetSAAver=TRUE" target="_blank" rel="noopener noreferrer">American Airlines Online Check-in</a></p>
+   <p>Online check-in generally opens <b>24 hours before departure</b> and closes <b>90 minutes before international flights</b> (per AA). Confirm current rules for the specific flight.</p>
+   <ul>
+    <li><b>AA 92 (outbound):</b> departs Tue Nov 17, 6:35 PM PHL → check-in generally opens around Mon Nov 16, 6:35 PM (verify).</li>
+    <li><b>AA 93 (return):</b> departs Sat Nov 21, 10:15 AM ZRH → check-in generally opens around Fri Nov 20, 10:15 AM Zurich time (verify).</li>
+   </ul>
+   <p><a href="https://www.aa.com/web/i18n/travel-info/check-in-and-arrival.html?from=PROSevergreen" target="_blank" rel="noopener noreferrer">Official AA check-in &amp; arrival guidance</a></p>
+  </div>
+  <div class="card">
+   <h3 style="margin-top:0">Manage reservation &amp; status</h3>
+   <p><a class="btn alt" href="https://www.aa.com/manage-reservation/viewres/ui/app/viewres/DGLMZU" target="_blank" rel="noopener noreferrer">Manage American Airlines Reservation</a></p>
+   <p><a class="btn alt" href="https://www.aa.com/flightstatus/" target="_blank" rel="noopener noreferrer">American Airlines Flight Status</a></p>
+   <div class="warn" style="font-size:.9rem">The reservation link contains your confirmation code. Keep this page private.</div>
+  </div>
+ </div>
+ <div class="card">
+  <h3 style="margin-top:0">Pre-travel checklist</h3>
+  <p class="dim" style="color:var(--gray);margin-top:0;font-size:.9rem">Items are unchecked by default. Ticks are remembered only in this browser (local storage); nothing is sent anywhere.</p>
+  <ul class="chk" id="checklist"></ul>
+  <p class="noprint"><button type="button" class="btn alt" id="resetChk">Reset checklist</button></p>
+ </div>
+</section>
+
+<section id="agenda" aria-labelledby="ag-h">
+ <h2 id="ag-h">Full Meeting Agenda <span class="tag gray">Draft v. 21 Oct 2026</span></h2>
+ <p>Complete three-day schedule as supplied. All events take place at the Swiss Re Centre for Global Dialogue. Moderator asterisks (*) are retained exactly as supplied; the agenda document describes * as the <i>coordinating moderator</i> for the panel. Open the <a href="https://seerave-foundation.github.io/retreat-2026-agenda/?p=0df52" target="_blank" rel="noopener noreferrer">Seerave personalized agenda</a> for your own schedule and transfers.</p>
+ <p class="noprint"><button type="button" class="btn alt" id="expandAll">Expand all days</button> <button type="button" class="btn alt" id="collapseAll">Collapse all</button></p>
+
+ <!-- DAY 1 -->
+ <details class="day" open id="day1">
+  <summary><span>Wednesday, November 18, 2026</span><span style="font-weight:400;font-size:.9rem">Arrival &amp; evening events</span></summary>
+  <div class="daybody">
+   <div class="ev"><div class="time">5:00–7:00 PM</div><div><div class="ttl">Welcome Reception</div><div class="loc">Location: Swiss Re Foyer</div></div></div>
+   <div class="ev"><div class="time">7:00–10:00 PM</div><div><div class="ttl">Seerave Foundation 10th Anniversary Celebration Dinner</div><div class="loc">Location: Swiss Re Dining Room · <b>RSVP only</b></div></div></div>
+   <div class="amber">Your flight lands at ZRH at 8:15 AM on Nov 18; the first event is at 5:00 PM.</div>
+  </div>
+ </details>
+
+ <!-- DAY 2 -->
+ <details class="day" open id="day2">
+  <summary><span>Thursday, November 19, 2026</span><span style="font-weight:400;font-size:.9rem">Panels 1–5 · Forum A</span></summary>
+  <div class="daybody">
+   <h3>Morning session</h3>
+   <div class="ev"><div class="time">7:30 AM</div><div><div class="ttl">Breakfast opens</div><div class="loc">Location: Swiss Re Foyer</div></div></div>
+   <div class="ev"><div class="time">8:30 AM</div><div><div class="ttl">Welcome and Agenda Review</div><div class="loc">Location: Swiss Re Forum A</div>
+    <ul><li>Manuel Fankhauser — Seerave Foundation</li><li>Jennifer Wargo — MD Anderson Cancer Center</li><li>Arielle Elkrief — CHUM</li></ul></div></div>
+
+   <div class="ev panel"><div class="time">8:45 AM</div><div>
+    <div class="ttl">Panel 1: Cancer-Related Dysbiosis, Point-of-Care Diagnostics &amp; Biomarkers</div>
+    <div class="lbl">Consensus</div>
+    <ul><li>Microbiome features have demonstrated potential as biomarkers of cancer treatment response and toxicity.</li><li>Standardized sampling, analysis, and prospective clinical validation are required before microbiome diagnostics can be incorporated into routine oncology practice.</li></ul>
+    <div class="lbl">Key debate</div><ul><li>Are microbiome diagnostic tools ready to enter routine oncology practice?</li></ul>
+    <div class="lbl">Speakers and topics <span class="dim">(7–10 min each)</span></div>
+    <ul class="spk">
+     <li><b>Nicola Segata</b> — Applications of metagenomics sequencing in the oncology clinic. Should we be offering metagenomics testing to all oncology patients?</li>
+     <li><b>Laurence Zitvogel</b> — Is dysbiosis itself a clinically actionable biomarker in patients with ICI? Validation of TOPOSCORE across cohorts.</li>
+     <li><b>Susan Bullman</b> — Next frontier: microbiome for cancer initiation, progression, and screening/early detection. Should we routinely test for Fusobacteria in the context of CRC screening?</li>
+    </ul>
+    <div class="lbl">Moderators</div><ul><li>Marty Blaser*</li><li>Pamela Ohashi</li></ul>
+    <div class="lbl">Additional participants joining on stage</div><ul><li>Andrew Almonte</li><li>Gianmarco Piccinno</li><li>Nazli Dizman</li><li>Robert Jenq</li></ul>
+    <div class="lbl">Structured discussion — 60 minutes</div>
+    <ul><li>What constitutes a clinically actionable microbiome biomarker?</li><li>Should microbiome testing enter clinical trials now?</li><li>Should microbiome testing enter routine oncology practice for prognostication, treatment selection, clinical trial stratification, and/or early cancer detection?</li><li>What level of validation is sufficient?</li><li>Stool, plasma metabolites, tumor microbiome—or all three?</li><li>What is needed to move these tools from diagnosis to early detection or prevention?</li></ul>
+    <div class="lbl">Expected deliverables — consensus recommendations on</div>
+    <ul><li>Standards for microbiome sampling and diagnostics</li><li>Evidence required for implementation of microbiome diagnostics into routine oncology practice</li><li>Highest-priority validation studies</li></ul>
+   </div></div>
+
+   <div class="ev brk"><div class="time">10:15 AM</div><div><div class="ttl">Break</div><div class="loc">15 minutes</div></div></div>
+
+   <div class="ev panel key"><div class="time">10:30 AM</div><div>
+    <span class="pill">★ YOUR KEY PRESENTATION</span>
+    <div class="ttl">Panel 2: First Line of Defense: Antibiotic Stewardship</div>
+    <div class="lbl">Consensus</div>
+    <ul><li>Antibiotics exposure before, during, and after ICI, CAR-T, BMT are associated with poor survival.</li><li>Antibiotic stewardship should be practiced prior to and during these therapies.</li></ul>
+    <div class="lbl">Key debates</div>
+    <ul><li>Which interventions should be prioritized: stewardship, protection, or restoration?</li><li>Should therapies be delayed in the setting of recent antibiotic exposure?</li></ul>
+    <div class="lbl">Speakers and topics <span class="dim">(7–10 min each)</span></div>
+    <ul class="spk">
+     <li><b>Susan Seo</b> — Roadmap to implementation of ATB stewardship in oncology (in-patient and especially out-patient). Who is responsible for ATB stewardship?</li>
+     <li><b>Gianluca Ianiro</b> — Microbiome preservation after ATBs: clinical trial update.</li>
+     <li style="background:#fff3cf;border-radius:4px;padding:4px 8px;list-style:none;margin-left:-8px"><b>★ Marco Ruella</b> — “Importance of ATB stewardship in CAR-T cell therapy: from first discovery to the clinic”</li>
+     <li><b>Melody Smith</b> — ATB stewardship in CAR-T context: lessons learned from shifting practice at Stanford.</li>
+    </ul>
+    <div class="lbl">Moderators</div><ul><li>Cliff McDonald*</li><li>Elisabeth de Vries</li></ul>
+    <div class="lbl">Additional participant joining on stage</div><ul><li>Lisa Derosa</li></ul>
+    <div class="lbl">Structured discussion — 50 minutes</div>
+    <ul><li>Should stewardship become part of ICI guidelines now?</li><li>Which patients truly need antibiotics despite microbiome concerns?</li><li>What randomized trial would definitively answer these questions?</li><li>What can we do to manage ATB stewardship in outpatients?</li><li>How can we scale antibiotic stewardship principles across different practice settings, beyond ID/pharmacology?</li><li>What can we do when antibiotics are administered?</li><li>What is the role of public health agencies in aligning standard of care with these recommendations and what do they need from this body?</li></ul>
+    <div class="lbl">Expected deliverables — consensus recommendations on</div>
+    <ul><li>Draft stewardship recommendations</li><li>Priority interventional trials</li></ul>
+   </div></div>
+
+   <div class="ev brk"><div class="time">12:00 PM</div><div><div class="ttl">Lunch and Group Photo</div><div class="loc">Location: Swiss Re Foyer</div></div></div>
+
+   <h3>Afternoon session <span class="dim" style="font-size:.85rem;font-weight:400;color:var(--gray)">— all panels in Swiss Re Forum A unless otherwise stated</span></h3>
+
+   <div class="ev panel"><div class="time">1:00 PM</div><div>
+    <div class="ttl">Panel 3: Role of Co-Medications on Dysbiosis and Response to Cancer Therapy</div>
+    <div class="loc">Location: Swiss Re Forum A</div>
+    <div class="lbl">Consensus</div><ul><li>Co-medications should be reviewed at every medical visit […and unnecessary medications that are deleterious for the microbiome should be stopped or replaced].</li></ul>
+    <div class="lbl">Key debate</div><ul><li>Should unnecessary co-medications be reviewed and stopped prior to initiation of immunotherapy?</li></ul>
+    <div class="lbl">Speakers and topics <span class="dim">(7–10 min each)</span></div>
+    <ul class="spk"><li><b>David Pinato</b> — Co-medications and immunotherapy: association, causality, or actionable target?</li><li><b>Monika Krzyzanowska</b> — How to implement quality-of-care changes at the hospital level?</li></ul>
+    <div class="lbl">Moderators</div><ul><li>Bertrand Routy*</li><li>Tsoni Peled</li></ul>
+    <div class="lbl">Structured discussion — 45 minutes</div>
+    <ul><li>Should PPIs (or other co-medications) be stopped if they are not clinically indicated?</li><li>Which medications deserve routine reporting?</li><li>Which should become stratification variables in microbiome trials or studies?</li><li>If data are lacking, what should we prioritize? What do current data suggest are the most urgent co-medications to investigate? Which truly require randomized trials?</li></ul>
+    <div class="lbl">Expected deliverables — consensus recommendations on</div>
+    <ul><li>A core list of co-medications that should be prioritized and systematically captured in immunotherapy and microbiome studies</li><li>Which co-medications should be included as covariates or stratification factors in future clinical trials</li><li>Minimum standards for reporting timing, dose, duration, and indication of co-medication exposure</li><li>Priority co-medications for prospective mechanistic and interventional studies</li><li>Whether routine medication review and deprescribing should be incorporated into oncology care before and during immunotherapy</li></ul>
+   </div></div>
+
+   <div class="ev brk"><div class="time">2:05 PM</div><div><div class="ttl">Break</div><div class="loc">10 minutes</div></div></div>
+
+   <div class="ev panel"><div class="time">2:15 PM</div><div>
+    <div class="ttl">Panel 4: Nutrition and Prebiotics <span class="dim">(combined panel)</span></div>
+    <div class="loc">Location: Swiss Re Forum A</div>
+    <div class="lbl">Consensus</div>
+    <ul><li>Diet is a major modifiable determinant of gut microbiome composition and function and should be systematically captured in microbiome-centered oncology studies.</li><li>Dietary interventions and prebiotics represent attractive, low-risk strategies to modulate the gut microbiome, but prospective evidence demonstrating improved cancer treatment outcomes remains insufficient for microbiome-directed recommendations as standard oncology care.</li></ul>
+    <div class="lbl">Key debates</div>
+    <ul><li>Can diet or prebiotics become a microbiome therapies?</li><li>Does the risk/benefit profile of recommending high-fiber, minimally processed diets suggest we should act with more urgency to recommend dietary changes to patients?</li><li>What is the role of medical foods within the current regulatory landscape and is there a roll for their study as part of RCTs?</li></ul>
+    <div class="lbl">Speakers and topics <span class="dim">(7–10 min each)</span></div>
+    <ul class="spk">
+     <li><b>Wendy Garrett</b> — Feeding the microbiome: what biology should guide dietary and prebiotic interventions?</li>
+     <li><b>Urvi Shah</b> — The next generation of diet interventions in immuno-oncology.</li>
+     <li><b>Joseph Tintelnot</b> — Updates from a diet interventional trial: lessons learned and recommendations for microbiome trial standardization.</li>
+     <li><b>Jen McQuade</b> — Are we ready to prescribe diet alongside immunotherapy?</li>
+    </ul>
+    <div class="lbl">Moderators</div><ul><li>Kathy McCoy*</li><li>Sandrine Aspeslagh*</li><li>Jens Walter</li></ul>
+    <div class="lbl">Additional participant joining on stage</div><ul><li>Luigi Nezi</li></ul>
+    <div class="lbl">Structured discussion — 60 minutes</div>
+    <ul><li>Can dietary interventions improve immunotherapy?</li><li>Why might different nutritional regimens / prebiotics have a common effect on immunotherapy outcomes?</li><li>Should every microbiome trial make any recommendations on patients not making changes to their diet on the protocol? How should diet best be controlled for?</li><li>How do we improve adherence/make dietary interventions more feasible?</li><li>Is providing meals scalable? How do we increase scalability at institutional and regional levels?</li><li>What dietary intervention has the strongest evidence today?</li></ul>
+    <div class="lbl">Expected deliverables — consensus recommendations on</div>
+    <ul><li>Minimum dietary reporting standards</li><li>Priority dietary intervention trials</li><li>A consensus perspective answering: what is actionable advice to deliver to patients today?</li></ul>
+   </div></div>
+
+   <div class="ev brk"><div class="time">4:00 PM</div><div><div class="ttl">Break</div><div class="loc">10 minutes</div></div></div>
+
+   <div class="ev panel"><div class="time">4:10 PM</div><div>
+    <div class="ttl">Panel 5: FMT to Rational Consortia</div>
+    <div class="loc">Location: Swiss Re Forum A · FMT = fecal microbiota transplantation</div>
+    <div class="lbl">Consensus</div><ul><li>FMT is a discovery tool but has challenges for long-term commercial utility.</li></ul>
+    <div class="lbl">Key debates</div>
+    <ul><li>Are FMT trials designed to help us understand what might make a rationally designed consortium more likely to succeed? Should we keep doing FMT trials?</li><li>How can LBPs replace FMT as therapeutics? Is there a “one size fits most” therapeutic for/beyond cancer?</li></ul>
+    <div class="lbl">Speakers and topics <span class="dim">(7–10 min each)</span></div>
+    <ul class="spk">
+     <li><b>Gene Chang</b> — Ecological perspective: engraftment, mechanisms, donor effects, what FMT has taught the field.</li>
+     <li><b>Harry Sokol</b> — New data from Exeliom.</li>
+     <li><b>Tsoni Peled</b> — New data from Seres (immune-related colitis).</li>
+     <li><b>Pippa Corrie</b> — New data from Microbiotica.</li>
+     <li><b>Mark Smith</b> — Seerave Ventures: translational, commercial and regulatory considerations.</li>
+    </ul>
+    <div class="lbl">Moderators</div><ul><li>Adam Schoenfeld</li><li>Gianluca Ianiro*</li><li>Trevor Lawley*</li></ul>
+    <div class="lbl">Structured discussion — 50 minutes</div>
+    <ul><li>Which patients might benefit the most from FMT or LBPs, and when? (Neoadjuvant, concurrent with therapy, adjuvant, etc.?)</li><li>How do we incorporate companion biomarkers? Is there a one size fits most solution?</li><li>Are FMT trials positioned to inform the design of rational consortia? What data/evidence/methods are still missing?</li><li>What are the paths available to us to bring products to patients, given defined regulatory constraints?</li></ul>
+    <div class="lbl">Expected deliverable — consensus recommendation on</div>
+    <ul><li>Roadmap from FMT proof-of-concept to next-generation microbiome products</li></ul>
+   </div></div>
+
+   <div class="ev"><div class="time">5:50 PM</div><div><div class="ttl">Chair Readout of Day 1 Priorities and Agenda Setting</div><div class="loc">Chair readout of highest priorities from Day 1 and agenda setting for the morning · Program ends at 6:00 PM</div></div></div>
+   <div class="ev"><div class="time">6:00 PM</div><div><div class="ttl">Cocktail Reception</div><div class="loc">Location: Swiss Re Dining Room</div></div></div>
+   <div class="ev"><div class="time">7:00 PM</div><div><div class="ttl">Dinner</div><div class="loc">Location: Swiss Re Dining Room</div></div></div>
+  </div>
+ </details>
+
+ <!-- DAY 3 -->
+ <details class="day" open id="day3">
+  <summary><span>Friday, November 20, 2026</span><span style="font-weight:400;font-size:.9rem">Half-day session · Panel 6 · Shuttles</span></summary>
+  <div class="daybody">
+   <h3>Morning session</h3>
+   <div class="ev"><div class="time">7:30 AM</div><div><div class="ttl">Breakfast opens</div><div class="loc">Location: Swiss Re Foyer</div></div></div>
+   <div class="ev"><div class="time">8:30 AM</div><div><div class="ttl">Welcome and Agenda Review</div><div class="loc">Location: Swiss Re Forum A</div>
+    <ul><li>Nadim Ajami — MD Anderson Cancer Center</li><li>Arielle Elkrief — CHUM</li></ul></div></div>
+
+   <div class="ev panel"><div class="time">8:45 AM</div><div>
+    <div class="ttl">Panel 6: Clinical Trials</div>
+    <div class="loc">Location: Swiss Re Forum A</div>
+    <div class="lbl">Consensus (extracted from current manuscript)</div>
+    <ol>
+     <li>Antibiotic exposure within 30 days of ICI initiation reduces ICI benefit and is a stratification variable.</li>
+     <li>FMT is a discovery and proof-of-concept tool, not a scalable therapeutic product. Development of any clinically successful FMT signal should transition to a manufacturable full-spectrum microbiota community or defined-bacterial consortia.</li>
+     <li>Indication selection should favor settings with intact immune priming (1L metastatic, neoadjuvant) over later-line and adjuvant settings, where mechanisms of resistance are layered.</li>
+     <li>Phase II microbiome trials in solid tumor oncology should use landmark survival as the primary efficacy endpoint, not RECIST 1.1 ORR.</li>
+     <li>Every microbiome trial must collect a defined minimum biospecimen set (stool, plasma, serum, PBMC, germline DNA, tumor where feasible) at protocol-mandated timepoints under a single central SOP.</li>
+     <li>Microbiome trials should capture concomitant antibiotic exposure, PPI/H2RA use, validated dietary intake, probiotic use, recent travel and hospitalization on the electronic case report form (eCRF).</li>
+     <li>SER-155 BTD and Vowst approval set the regulatory bar: microbiome products are biologics and require CMC packages comparable to other live biologics.</li>
+    </ol>
+    <div class="lbl">Key debates</div>
+    <ul><li>What will it take to move from promising early-phase microbiome trials to a definitive practice-changing trial?</li><li>What have we learned from negative or unsuccessful late-stage microbiome trials outside oncology?</li><li>Should the next generation of trials enroll all patients or enrich for patients with a microbiome-defined phenotype?</li><li>Do we need to demonstrate microbiome modulation/engraftment as a pharmacodynamic endpoint, or is improvement in a clinical endpoint sufficient?</li></ul>
+    <div class="lbl">Speakers and topics <span class="dim">(7–10 min each)</span></div>
+    <ul class="spk">
+     <li><b>Caroline Robert</b> — From clinical trial to standard of care: what makes a trial practice-changing? Perspective: having led multiple melanoma trials that changed clinical practice, what can microbiome oncology learn from successful therapeutic development?</li>
+     <li><b>Pippa Corrie</b> — From promising signal to definitive trial: what evidence is enough to move forward?</li>
+     <li><b>Diwakar Davar</b> — The next great microbiome oncology trial. Part II of Meeting 1: what have we learned since last year, and which trial-design problems continue to hold the field back? “What mistakes are we repeating?”</li>
+    </ul>
+    <div class="lbl">Moderators</div>
+    <ul><li>Giorgio Trinchieri</li><li>Pierre Olivier Gaudreau*</li><li>Oriana Miltiadous <span class="dim">(also authoring consensus statements, research priorities and evidence standards for the separate pediatrics section)</span></li></ul>
+    <div class="lbl">Structured discussion — 60 minutes</div>
+    <ul><li>What clinical and microbiome endpoints should be mandatory: engraftment, ecological remodeling, functional changes, metabolomics?</li><li>How should diet, antibiotics, co-medications, geography, and baseline microbiome heterogeneity be incorporated into trial design?</li><li>What have previous negative late-stage microbiome trials taught us?</li><li>What evidence would convince oncologists and guideline committees to change practice?</li><li>How important is it to incorporate microbiome measurements in non-microbiome trials? (Particularly in phase 0/I trials of novel IO drugs and combinations)</li></ul>
+    <div class="lbl">Expected deliverables — consensus recommendations on</div>
+    <ul><li>Core clinical endpoints and minimum microbiome/pharmacodynamic endpoints for future trials</li><li>When and how microbiome biomarkers should be used for patient selection or stratification</li><li>Minimum standards for controlling or capturing diet, antibiotics, co-medications, geography, and other microbiome-modifying exposures</li></ul>
+   </div></div>
+
+   <div class="ev brk"><div class="time">10:15 AM</div><div><div class="ttl">Break and Small-Group Work</div><div class="loc">Small groups revise consensus statements</div></div></div>
+
+   <div class="ev panel"><div class="time">10:45 AM</div><div>
+    <div class="ttl">Priorities, Deliverables, and Conclusions</div>
+    <ul><li>Feedback from Joao Monteiro, Editor-in-Chief, <i>Nature Medicine</i></li><li>Chairs project consensus statements for real-time feedback and voting (10 minutes per topic)</li><li>Chairs outline next steps for manuscript revision and submission</li><li>Antibiotic stewardship quality-improvement (QI) studies RFP announcement — Carolyn Edelstein</li></ul>
+   </div></div>
+
+   <div class="ev brk"><div class="time">12:45 PM</div><div><div class="ttl">Lunch</div><div class="loc">Location: Swiss Re Foyer</div></div></div>
+
+   <div class="ev"><div class="time">1:30 PM onward</div><div><div class="ttl">Group Airport Shuttles</div><div class="loc">Depart from the Swiss Re main entrance, beginning at 1:30 PM</div>
+    <div class="amber" style="margin-bottom:0">Check your personalized agenda for your assigned transfer. No individual shuttle time has been supplied for Marco, and his return flight is Saturday, Nov 21 — verify with Seerave what applies.</div></div></div>
+
+   <div class="ev"><div class="time">Friday evening</div><div><div class="ttl">Optional dinner for guests remaining in Zurich</div><div class="loc">Location: Swiss Re Lodge Bar</div>
+    <p style="margin:4px 0 0">For those who remain in Zurich on Friday evening, dinner at the Swiss Re Lodge Bar is included in your stay. Tell the attendant you are a guest of the Seerave Foundation. This applies only to guests remaining in Zurich — not every attendee.</p></div></div>
+  </div>
+ </details>
+</section>
+
+<section id="venue" aria-labelledby="ve-h">
+ <h2 id="ve-h">Venue</h2>
+ <div class="grid g2">
+  <div class="card">
+   <h3 style="margin-top:0">Swiss Re Centre for Global Dialogue</h3>
+   <address style="font-style:normal">Gheistrasse 37<br>8803 Rüschlikon<br>Switzerland</address>
+   <ul>
+    <li>Sessions and official meals are held here unless the agenda says otherwise.</li>
+    <li>Swiss Re’s venue information estimates about 40 minutes by car from Zurich Airport (varies).</li>
+    <li>The venue is accessible by public transportation.</li>
+   </ul>
+   <p>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Swiss+Re+Centre+for+Global+Dialogue%2C+Gheistrasse+37%2C+8803+R%C3%BCschlikon%2C+Switzerland" target="_blank" rel="noopener noreferrer">📍 Google Maps</a>
+   </p>
+  </div>
+  <div class="card">
+   <h3 style="margin-top:0">Official venue resources</h3>
+   <ul>
+    <li><a href="https://www.swissre.com/about-us/centre-for-global-dialogue.html" target="_blank" rel="noopener noreferrer">Swiss Re Centre for Global Dialogue (official page)</a></li>
+    <li><a href="https://www.swissre.com/dam/jcr%3Afe17b57c-5b8d-45fb-84c5-74516cc5d809/2024-01-sr-centre-for-global-dialogue-guide-en.pdf" target="_blank" rel="noopener noreferrer">Official venue guide (PDF)</a></li>
+    <li><a href="https://www.swissre.com/institute/dam/jcr%3A24061eaf-16bc-48f6-84d0-56bb49d65362/2023-09-how-to-find-us.pdf" target="_blank" rel="noopener noreferrer">Official directions — “How to find us” (PDF)</a></li>
+    <li><a href="https://maps.app.goo.gl/yRnRWGsfv4GH7FH49" target="_blank" rel="noopener noreferrer">Map link from the agenda document</a></li>
+    <li><a href="https://www.zvv.ch/" target="_blank" rel="noopener noreferrer">Zurich public transit (ZVV)</a></li>
+   </ul>
+   <p class="note" style="margin-bottom:0">Venue room details are limited to those in the agenda: Foyer, Forum A, Dining Room and Lodge Bar.</p>
+  </div>
+ </div>
+ <div class="card">
+  <h3 style="margin-top:0">Public transport to the venue (per Seerave travel policy)</h3>
+  <ol>
+   <li>From Zurich Airport: train to Zürich HB.</li>
+   <li>From Zürich HB: S-Bahn S8 or S24 toward Kilchberg or Rüschlikon.</li>
+   <li>Then bus 161 or 165 to “Säumerstrasse”. (Event notes also mention bus 165 from Rüschlikon and bus 161 to “Auf Brunnen” from the Kilchberg direction.)</li>
+  </ol>
+  <div class="amber" style="margin-bottom:0">Verify current timetables and exact stops (SBB / ZVV) before travel. Follow Seerave’s arranged transfers first.</div>
+ </div>
+</section>
+
+<section id="hotel" aria-labelledby="ho-h">
+ <h2 id="ho-h">Hotel &amp; Transport</h2>
+ <div class="card" style="border:2px solid var(--teal)">
+  <span class="tag">Per organizer email</span>
+  <h3 style="margin-top:4px">Staying at the Swiss Re Centre for Global Dialogue</h3>
+  <p>Carolyn Edelstein (Seerave) wrote: “Dr. Ruella is staying at the Swiss Re Centre for Global Dialogue, where the meeting is taking place.” That is the same site as the venue: Gheistrasse 37, 8803 Rüschlikon, Switzerland.</p>
+  <p><a class="btn" href="https://urldefense.com/v3/__https://share.google/hlZOjJAfjqhrgZvHT__;!!IBzWLUs!ValNILo6hnT5qrQjFjZd_DkIPgowUfGZ0wfCSXcbGJzE-trO1EwLjK1SrRR1i_yHhJZwjEnWfjBXfzCfbgDrgrL93Ystnw$" target="_blank" rel="noopener noreferrer">Google Maps link from Carolyn’s email</a></p>
+  <div class="amber" style="margin-bottom:0">Source is the organizer’s email only. No hotel confirmation number, check-in/check-out dates, room type, booking receipt or phone number was supplied, so none are shown. Confirm dates (and that your arrival on Nov 18 and your Saturday Nov 21 departure are covered) with <a href="mailto:shubhangi.kansal@seerave.org">Shubhangi Kansal</a> or <a href="mailto:laura.maehlmann@seerave.org">Laura Mählmann</a>. The policy says rooms are booked for conference nights only; the Friday-night stay before a Saturday flight is not stated.</div>
+ </div>
+ <h3>Other hotels named in the Seerave policy <span class="tag gray">not Marco’s booking</span></h3>
+ <div class="grid g2">
+  <div class="card">
+   <span class="tag gray">Policy-listed property — not Marco’s hotel</span>
+   <h3>FIVE Zurich</h3>
+   <address style="font-style:normal">Döltschiweg 234<br>8055 Zürich, Switzerland</address>
+   <ul><li>From Zurich Airport: train to Zürich HB, then S-Bahn S10 to Uetliberg.</li><li>By car: approx. 20 min from the airport, depending on traffic.</li></ul>
+  </div>
+  <div class="card">
+   <span class="tag gray">Policy-listed property — not Marco’s hotel</span>
+   <h3>Hotel Belvoir</h3>
+   <address style="font-style:normal">Säumerstrasse 37<br>8803 Rüschlikon, Switzerland</address>
+   <ul><li>From Zurich Airport: train to Zürich HB, S8 to Rüschlikon, then bus 165 to the “Belvoir” stop.</li><li>Event information: about a 10-minute walk from the Swiss Re venue.</li><li>Shuttles expected at the start and end of the Thursday and Friday programs for members staying there.</li></ul>
+  </div>
+ </div>
+
+ <div class="card">
+  <h3 style="margin-top:0">Airport transfer (Seerave)</h3>
+  <ul>
+   <li><b>On arrival</b> at Zurich Airport, look for the transport team holding a <b>“Seerave Foundation”</b> sign. Seerave organizes airport transfers and shares details in advance.</li>
+   <li>No arrival transfer time or pickup point has been supplied — confirm with Seerave and your personalized agenda. Do not arrange a duplicate transfer.</li>
+   <li>If you cannot use the transfers, Swiss public transport is excellent — plan routes via SBB. Do not assume a self-arranged taxi or train is reimbursable.</li>
+  </ul>
+  <h3>Meeting shuttles</h3>
+  <ul>
+   <li>Seerave organizes transfers during the retreat and communicates them in the personalized agenda.</li>
+   <li>Members staying at Hotel Belvoir (not Marco, per the organizer email): shuttles run at the start and end of programs on Thursday and Friday.</li>
+   <li>Friday, Nov 20: group airport shuttles depart from the Swiss Re main entrance beginning at 1:30 PM. <b>Marco’s specific transfer time: not supplied — check the personalized agenda.</b></li>
+  </ul>
+  <p style="margin-bottom:0"><a class="btn" href="https://seerave-foundation.github.io/retreat-2026-agenda/?p=0df52" target="_blank" rel="noopener noreferrer">Open Seerave Personalized Agenda</a></p>
+ </div>
+ <div class="amber">Carolyn Edelstein’s email contained a longer personalized link. Her exact link was not included in the materials used to build this page — replace or supplement the link above with it if you have it.</div>
+</section>
+
+<section id="policy" aria-labelledby="po-h">
+ <h2 id="po-h">Travel Policy — Read Before Making Changes</h2>
+ <p>Summary of the Seerave Foundation Retreat Travel Information &amp; Policy (updated 12 May 2026).</p>
+ <div class="warn"><b>Before paying for any additional travel, accommodation, meal, or transfer, confirm with Seerave Foundation whether it is approved. The supplied policy states that expenses outside the approved process may not be reimbursed.</b></div>
+ <div class="grid g2">
+  <div class="card">
+   <h3 style="margin-top:0">Booking, payment &amp; reimbursement</h3>
+   <ul>
+    <li>Flights, hotel accommodation and meals during the conference are arranged upfront by Seerave through its travel agency, COSMOS Tours.</li>
+    <li>Expenses and bookings outside the process cannot be reimbursed (per policy). Contact Seerave before arranging anything outside the provided plan.</li>
+    <li>Don’t assume a self-booked hotel, taxi, train ticket, meal or flight change will be reimbursed.</li>
+    <li>Travel plan changes: the travel partner suggests options; once confirmed and approved by Seerave, the booking is finalized.</li>
+    <li>Policy flight classes for PI/Working Group members: Premium Economy for night-time long-haul, or Business only on special request approved by Seerave (contact Laura Mählmann). Round-trip range US–EU: USD 2,000–4,000; approval needed above USD 4,000.</li>
+    <li>Partners and children cannot be accommodated via the conference; contact Seerave in a critical situation.</li>
+   </ul>
+  </div>
+  <div class="card">
+   <h3 style="margin-top:0">Hotel &amp; transfers</h3>
+   <ul>
+    <li>Seerave reserves rooms for the conference nights. Early check-in may be possible but is not guaranteed.</li>
+    <li>Additional nights outside the conference arrangement must be organized independently.</li>
+    <li><b>Marco’s lodging:</b> the Swiss Re Centre for Global Dialogue, per Carolyn Edelstein’s email (no booking details supplied).</li>
+    <li>Airport transfers are organized by Seerave: look for the “Seerave Foundation” sign on arrival.</li>
+    <li>Transfers during the retreat are organized by Seerave and communicated via the personalized agenda — follow those instead of arranging a duplicate.</li>
+   </ul>
+   <h3>Dietary &amp; accessibility needs</h3>
+   <p style="margin:0">Communicate these through the event registration form or directly to the organizer.</p>
+  </div>
+ </div>
+ <div class="card">
+  <h3 style="margin-top:0">Visa &amp; entry requirements</h3>
+  <ul>
+   <li>The policy says participants are responsible for obtaining their own visas and should start early.</li>
+   <li>The policy notes that, starting Q4 2026, visa-exempt third-country nationals will require an ETIAS electronic travel authorization for short Schengen stays (policy: €20, valid 3 years).</li>
+  </ul>
+  <div class="amber" style="margin-bottom:0">This policy note is not a definitive statement of Marco’s current entry requirements. Check current official Swiss/Schengen entry requirements for your passport and travel circumstances before departure. This page does not state whether a visa or travel authorization is or is not required.</div>
+ </div>
+</section>
+
+<section id="expenses" aria-labelledby="ex-h">
+ <h2 id="ex-h">Expenses &amp; Reimbursement</h2>
+ <div class="warn"><b>Ask first.</b> Per the Seerave policy, flights, hotel and conference meals are arranged and paid upfront through Seerave’s travel process, and expenses or bookings outside that process <b>cannot be reimbursed</b>. Nothing below is a promise of reimbursement. Confirm with Seerave <b>before</b> paying.</div>
+ <div class="card">
+  <h3 style="margin-top:0">What the policy says about each expense type</h3>
+  <div class="tablewrap"><table>
+   <thead><tr><th>Expense</th><th>Status under the supplied policy</th><th>Action</th></tr></thead>
+   <tbody>
+    <tr><td>Flights (AA 92 / AA 93 as ticketed)</td><td>Booked upfront via the approved process. Nothing to claim.</td><td>None.</td></tr>
+    <tr><td>Flight changes, upgrades, extra baggage, seat purchases</td><td>Outside the booked plan. Not stated as reimbursable; changes need Seerave approval.</td><td>Ask Seerave before paying.</td></tr>
+    <tr><td>Hotel</td><td>Seerave reserves rooms for conference nights only (Marco: Swiss Re Centre per organizer email; dates not supplied). Extra nights are your own responsibility.</td><td>Confirm dates (esp. Fri night); ask before booking anything.</td></tr>
+    <tr><td>Airport transfers</td><td>Seerave organizes them. Don’t arrange a duplicate.</td><td>Use the “Seerave Foundation” sign pickup / personalized agenda.</td></tr>
+    <tr><td>Uber / taxi / train (self-arranged)</td><td>Not assumed reimbursable. Bookings outside the process cannot be reimbursed per policy.</td><td>Ask first, unless you have written approval.</td></tr>
+    <tr><td>Meals during the conference</td><td>Provided by Seerave. Meals outside the program are not covered by anything supplied.</td><td>Ask first.</td></tr>
+    <tr><td>Visa / ETIAS</td><td>Policy says you are responsible for visas. No reimbursement is mentioned.</td><td>Ask if unsure.</td></tr>
+    <tr><td>Partner / family travel</td><td>Not accommodated by the conference.</td><td>Own arrangement.</td></tr>
+   </tbody></table></div>
+  <div class="amber" style="margin-bottom:0"><b>Claim process: not supplied.</b> No claim form, deadline, currency or receipt requirement was in the materials. Verify with Seerave. Keep all receipts and any approval emails.</div>
+ </div>
+ <div class="card">
+  <h3 style="margin-top:0">Ask Seerave before paying</h3>
+  <p>Opens a draft email to Shubhangi Kansal and Laura Mählmann (the policy’s travel contacts).</p>
+  <p style="margin-bottom:0"><a class="btn" href="mailto:shubhangi.kansal@seerave.org,laura.maehlmann@seerave.org?subject=Pre-approval%20request%20for%20travel%20expense%20-%20Marco%20Ruella&body=Hello%2C%0A%0ABefore%20I%20pay%20for%20the%20following%2C%20could%20you%20confirm%20whether%20it%20is%20approved%20and%20how%20it%20should%20be%20submitted%3F%0A%0AItem%3A%20%0AEstimated%20cost%3A%20%0ADate%3A%20%0AReason%3A%20%0A%0AThank%20you%2C%0AMarco%20Ruella">✉ Draft pre-approval email</a></p>
+ </div>
+ <div class="card">
+  <h3 style="margin-top:0">My expense log <span class="tag gray">stored only in this browser</span></h3>
+  <p class="dim" style="color:var(--gray);font-size:.9rem;margin-top:0">Personal tracker. Entries are not sent anywhere and logging an item does not mean it is approved. Use “Approval” to note who approved it and when, if anyone did.</p>
+  <div class="tablewrap"><table class="exp" id="expTable">
+   <thead><tr><th>Date</th><th>Category</th><th>Description</th><th>Amount</th><th>Cur.</th><th>Approval (who/when)</th><th>Receipt?</th><th></th></tr></thead>
+   <tbody id="expBody"></tbody>
+  </table></div>
+  <p class="noprint addrow"><button type="button" class="btn alt" id="addExp">+ Add expense</button></p>
+  <p id="expTotals" style="margin-bottom:0;color:var(--gray);font-size:.9rem"></p>
+ </div>
+</section>
+
+<section id="contacts" aria-labelledby="co-h">
+ <h2 id="co-h">Contacts</h2>
+ <div class="grid g3 contacts">
+  <div class="card"><h3>Carolyn Edelstein</h3><p style="margin:0"><a href="mailto:carolyn.edelstein@seerave.org">carolyn.edelstein@seerave.org</a></p><p style="font-size:.9rem;color:var(--gray)">Meeting coordination, author revisions, manuscript-related logistics, antibiotic stewardship QI studies RFP announcement.</p></div>
+  <div class="card"><h3>Dr. Jennifer Wargo</h3><p style="margin:0"><a href="mailto:jwargo@mdanderson.org">jwargo@mdanderson.org</a></p></div>
+  <div class="card"><h3>Dr. Arielle Elkrief</h3><p style="margin:0"><a href="mailto:arielle.elkrief.med@ssss.gouv.qc.ca">arielle.elkrief.med@ssss.gouv.qc.ca</a></p></div>
+  <div class="card"><h3>Shubhangi Kansal</h3><p style="margin:0"><a href="mailto:shubhangi.kansal@seerave.org">shubhangi.kansal@seerave.org</a><br><a href="tel:+41782645508">+41 78 264 55 08</a></p><p style="font-size:.9rem;color:var(--gray)">Seerave travel questions (per travel policy).</p></div>
+  <div class="card"><h3>Laura Mählmann</h3><p style="margin:0"><a href="mailto:laura.maehlmann@seerave.org">laura.maehlmann@seerave.org</a><br><a href="tel:+4917635670329">+49 176 356 703 29</a></p><p style="font-size:.9rem;color:var(--gray)">Seerave travel questions; contact for class-of-travel approvals (per travel policy).</p></div>
+  <div class="card"><h3>Other</h3><p style="margin:0">ACAPA AG travel agency (on e-ticket): <a href="tel:+41564433221">056 443 32 21</a></p></div>
+ </div>
+</section>
+
+</main>
+
+<footer>
+ <div class="wrap">
+  <div>
+   <div>Last updated: <input id="lastUpdated" type="text" value="Nov 4, 2026" aria-label="Last updated (editable)"> <span style="opacity:.8">(edit manually)</span></div>
+   <div style="margin-top:4px">Static travel brief compiled from supplied documents (agenda draft v. 21 Oct 2026; AA e-ticket; AA reservation print; Seerave travel policy). Flight and event details are <b>not live-verified</b>. Keep private.</div>
+  </div>
+  <button type="button" class="btn alt noprint" style="color:#fff!important;border-color:#fff" onclick="window.print()">🖨 Print Travel Brief</button>
+ </div>
+</footer>
+
+<script>
+(function(){
+ var items=[
+  "Open American Airlines reservation and verify flight details.",
+  "Complete online check-in when available.",
+  "Confirm baggage allowances and seat assignments with American Airlines.",
+  "Check flight status and terminals before departure.",
+  "Confirm lodging dates at the Swiss Re Centre with Seerave (including Friday night).",
+  "Open the personalized retreat agenda and check the assigned transfer time.",
+  "Confirm the airport pickup instructions and arrival meeting point.",
+  "Verify passport, visa, and applicable entry requirements.",
+  "Confirm that any extra travel expense is approved before paying.",
+  "Confirm slide-upload requirements if presenting.",
+  "Save the venue address and organizer contact details for offline reference.",
+  "Review Friday, November 20 airport shuttle instructions.",
+  "Verify the return flight check-in window before November 21."
+ ];
+ var KEY="ruella_zrh_checklist_v1", state={}, LK="ruella_zrh_updated";
+ try{state=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+ var ul=document.getElementById("checklist");
+ items.forEach(function(t,i){
+  var li=document.createElement("li"),lb=document.createElement("label"),cb=document.createElement("input"),sp=document.createElement("span");
+  cb.type="checkbox";cb.checked=!!state[i];sp.textContent=t;
+  cb.addEventListener("change",function(){state[i]=cb.checked;try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}});
+  lb.appendChild(cb);lb.appendChild(sp);li.appendChild(lb);ul.appendChild(li);
+ });
+ document.getElementById("resetChk").addEventListener("click",function(){
+  state={};try{localStorage.removeItem(KEY)}catch(e){}
+  ul.querySelectorAll("input").forEach(function(c){c.checked=false});
+ });
+ // expense log
+ var EK="ruella_zrh_expenses_v1",rows=[];
+ try{rows=JSON.parse(localStorage.getItem(EK)||"[]")}catch(e){}
+ var eb=document.getElementById("expBody");
+ var cats=["Uber/taxi","Train/transit","Flight change/baggage","Hotel","Meal","Visa/ETIAS","Other"];
+ function save(){try{localStorage.setItem(EK,JSON.stringify(rows))}catch(e){}tot()}
+ function tot(){var t={};rows.forEach(function(r){var a=parseFloat(r.amt);if(!isNaN(a)){var c=(r.cur||"?").toUpperCase();t[c]=(t[c]||0)+a}});
+  var k=Object.keys(t);document.getElementById("expTotals").textContent=k.length?"Logged total (not an approved amount): "+k.map(function(c){return t[c].toFixed(2)+" "+c}).join(" + "):""}
+ function mk(r,i){var tr=document.createElement("tr");
+  function inp(f,type,ph){var td=document.createElement("td"),x=document.createElement("input");x.type=type||"text";x.value=r[f]||"";if(ph)x.placeholder=ph;x.setAttribute("aria-label",f);
+   x.addEventListener("input",function(){r[f]=x.value;save()});td.appendChild(x);return td}
+  tr.appendChild(inp("date","date"));
+  var td=document.createElement("td"),sel=document.createElement("select");sel.setAttribute("aria-label","category");
+  cats.forEach(function(c){var o=document.createElement("option");o.textContent=c;if(c===r.cat)o.selected=true;sel.appendChild(o)});
+  if(!r.cat){r.cat=cats[0]}
+  sel.addEventListener("change",function(){r.cat=sel.value;save()});td.appendChild(sel);tr.appendChild(td);
+  tr.appendChild(inp("desc"));tr.appendChild(inp("amt","number","0.00"));tr.appendChild(inp("cur","text","USD/CHF"));tr.appendChild(inp("appr"));
+  var rc=document.createElement("td"),cb=document.createElement("input");cb.type="checkbox";cb.checked=!!r.rcpt;cb.setAttribute("aria-label","receipt kept");cb.style.width="auto";
+  cb.addEventListener("change",function(){r.rcpt=cb.checked;save()});rc.appendChild(cb);tr.appendChild(rc);
+  var x=document.createElement("td");x.className="x noprint";var d=document.createElement("button");d.type="button";d.className="btn alt";d.textContent="✕";d.setAttribute("aria-label","Delete row");
+  d.addEventListener("click",function(){rows.splice(rows.indexOf(r),1);save();render()});x.appendChild(d);tr.appendChild(x);return tr}
+ function render(){eb.innerHTML="";rows.forEach(function(r,i){eb.appendChild(mk(r,i))});tot()}
+ document.getElementById("addExp").addEventListener("click",function(){rows.push({});save();render()});
+ render();
+ var days=document.querySelectorAll("details.day");
+ document.getElementById("expandAll").addEventListener("click",function(){days.forEach(function(d){d.open=true})});
+ document.getElementById("collapseAll").addEventListener("click",function(){days.forEach(function(d){d.open=false})});
+ var lu=document.getElementById("lastUpdated");
+ try{var v=localStorage.getItem(LK);if(v)lu.value=v}catch(e){}
+ lu.addEventListener("input",function(){try{localStorage.setItem(LK,lu.value)}catch(e){}});
+ var was=[];
+ window.addEventListener("beforeprint",function(){
+  was=[];document.querySelectorAll("details").forEach(function(d){was.push(d.open);d.open=true});
+ });
+ window.addEventListener("afterprint",function(){document.querySelectorAll("details").forEach(function(d,i){d.open=was[i]})});
+})();
+</script>
+</body>
+</html>
